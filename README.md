@@ -1,1 +1,3 @@
-# Esercizio-D8
+https://ivandimatteo.github.io/Esercizio-D8/
+
+Ho avuto qualche problema con lo sticky della barra di destra (quella con Twitter, ecc.): non riuscivo ad impostare uno stycky con bottom, funzionava solo lo sticky con il top. Ho provato davvero di tutto, a cambiare le height di tutti i DIV padre ed anchestor alla barra, ma nulla da fare. Ho risolto mettendo un valore in top negativo, che però "sbarellava" cambiando risoluzione del monitor, ovviamente. Ho quindi fatto approfondite ricerche su Google ed ho trovato soluzione utilizzando media query ed impostando due valori diversi in base alla risoluzione del monitor.
