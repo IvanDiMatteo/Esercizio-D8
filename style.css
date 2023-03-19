@@ -196,18 +196,18 @@ span {
 
 /* Barra destra */
 
-@media (max-width: 1921px) {
+@media screen and (max-width: 1921px) {
     #right_bar {
     height: 1700px;
     position: sticky;
-    top: -60vh;
+    top: -82vh;
     width: 25vw;
     margin-left: 5vw;
     margin-right: 10vw;
     }
 }
 
-@media (min-width: 1922px) {
+@media screen and (min-width: 1922px) {
     #right_bar {
     height: 1700px;
     position: sticky;
